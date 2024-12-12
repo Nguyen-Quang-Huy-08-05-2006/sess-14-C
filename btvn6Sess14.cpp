@@ -5,7 +5,7 @@ int main(){
 	char str[100]="6 7 8 9 song bang tinh cam";
 	int n=0,m=0;
 	for(int i=0;i<strlen(str);i++){
-		if(str[i]>='a'||str[i]<='z'){
+		if(str[i]>='a'&&str[i]<='z'){
 			n++;
 		}
 	}
